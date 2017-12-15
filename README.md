@@ -1,4 +1,6 @@
 # tariff
+[![Build Status](https://travis-ci.org/glad4enkonm/tariff.svg?branch=master)](https://travis-ci.org/glad4enkonm/tariff)
+
 Tariff Comparison exercise
 
 # Task
