@@ -1,13 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tariff", "Tariff\Tariff.csproj", "{1C37B7D2-9F3F-476B-9DA1-8A09203B3DCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tariff", "Tariff\Tariff.csproj", "{1C37B7D2-9F3F-476B-9DA1-8A09203B3DCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tariff.Example", "Tariff.Example\Tariff.Example.csproj", "{B9226EBB-073E-4429-8BAC-488320477F71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tariff.Example", "Tariff.Example\Tariff.Example.csproj", "{B9226EBB-073E-4429-8BAC-488320477F71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1C37B7D2-9F3F-476B-9DA1-8A09203B3DCB} = {1C37B7D2-9F3F-476B-9DA1-8A09203B3DCB}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarif.Test", "Tarif.Test\Tarif.Test.csproj", "{8BDCB54A-608F-4FDC-B9D6-29543F04FD32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tarif.Test", "Tarif.Test\Tarif.Test.csproj", "{8BDCB54A-608F-4FDC-B9D6-29543F04FD32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
